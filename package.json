@@ -1,0 +1,14 @@
+{
+  "name": "platzi-single-page-vanilla-js-taller",
+  "version": "1.0.0",
+  "description": "Single Page Aplication using vanilla Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javascript"
+  ],
+  "author": "Andres Campuzano Garzon <campuxano88@gmail.com>",
+  "license": "MIT"
+}

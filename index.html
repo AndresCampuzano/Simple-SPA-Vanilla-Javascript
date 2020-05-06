@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Router | SPA</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<nav class="menu mp">
+				<ul class="menu-ul mp">
+					<li>
+						<a onclick="router.loadRoute('')">Home</a>
+					</li>
+					<li>
+						<a onclick="router.loadRoute('contact')">Contact</a>
+					</li>
+					<li>
+						<a onclick="router.loadRoute('aboutme')">About me</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h1 class="text-center">Welcome to Router | SPA page</h1>
+			<div class="text-center" data-router></div>
+		</main>
+		<footer class="footer text-center">
+			<div class="footer-content">
+				<p>
+					Made with 💚 by:
+					<a href="https://github.com/AndresCampuzano" class="github-link"
+						>GitHub @AndresCampuzano</a
+					>
+				</p>
+			</div>
+		</footer>
+		<script src="./js/router.js"></script>
+		<script src="./js/routes.js"></script>
+		<script src="./js/index.js"></script>
+	</body>
+</html>
